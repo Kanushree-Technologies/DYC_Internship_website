@@ -100,10 +100,15 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, var(--primary-color) 0%, #0056cc 100%);
+    background: linear-gradient(135deg, rgba(0,123,255,0.35) 0%, rgba(0,86,204,0.35) 100%),
+                url('../images/banner.jpeg') center/cover no-repeat;
     color: white;
     padding: 100px 20px;
     text-align: center;
+    min-height: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero-content h1 {

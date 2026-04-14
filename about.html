@@ -1,11 +1,11 @@
-/*
+<!--/*
  * About Us - Khandesh Youth Foundation
  * Page Owner: Pranjal Gurav
  * Page Description: This page provides an overview of the Khandesh Youth Foundation, 
  * including its vision, mission, core values, history, and impact on the community. 
  * It serves as an introduction to the organization for visitors and potential members.
  */
-
+-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -20,17 +20,21 @@
     <nav class="navbar">
         <div class="container">
             <div class="nav-brand">
-                <h2>🌟 Khandesh Youth Foundation</h2>
+                <h2 data-i18n="nav.brand">🌟 Khandesh Youth Foundation</h2>
             </div>
             <ul class="nav-menu" id="navMenu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html" class="active">About Us</a></li>
-                <li><a href="activities.html">Activities</a></li>
-                <li><a href="events.html">Events</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="team.html">Team</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+                <li><a href="about.html" class="active" data-i18n="nav.about">About Us</a></li>
+                <li><a href="activities.html" data-i18n="nav.activities">Activities</a></li>
+                <li><a href="events.html" data-i18n="nav.events">Events</a></li>
+                <li><a href="gallery.html" data-i18n="nav.gallery">Gallery</a></li>
+                <li><a href="team.html" data-i18n="nav.team">Team</a></li>
+                <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
             </ul>
+            <div class="lang-switcher">
+                <button type="button" class="lang-button" data-lang="en">EN</button>
+                <button type="button" class="lang-button" data-lang="mr">MR</button>
+            </div>
             <div class="hamburger" id="hamburger">
                 <span></span>
                 <span></span>
@@ -41,81 +45,81 @@
 
     <!-- Page Header -->
     <section class="page-header">
-        <h1>About Khandesh Youth Foundation</h1>
-        <p>Nurturing Tomorrow's Leaders Today</p>
+        <h1 data-i18n="about.page.header.title">About Khandesh Youth Foundation</h1>
+        <p data-i18n="about.page.header.subtitle">Nurturing Tomorrow's Leaders Today</p>
     </section>
 
     <!-- Main Content -->
     <main class="container">
         <!-- About Section -->
         <section class="about-section">
-            <h2>Who We Are</h2>
-            <p>The Khandesh Youth Foundation is a dynamic organization dedicated to the holistic development of young individuals in Dhule. We are committed to fostering leadership, creativity, and social responsibility among youth through various educational, cultural, and sports programs.</p>
+            <h2 data-i18n="about.who.title">Who We Are</h2>
+            <p data-i18n="about.who.text">The Khandesh Youth Foundation is a dynamic organization dedicated to the holistic development of young individuals in Dhule. We are committed to fostering leadership, creativity, and social responsibility among youth through various educational, cultural, and sports programs.</p>
             
             <div class="about-grid">
                 <div class="about-card">
-                    <h3>Our Vision</h3>
-                    <p>To be the leading youth organization in Dhule, empowering young minds to become responsible, innovative, and socially conscious leaders of tomorrow.</p>
+                    <h3 data-i18n="about.vision.title">Our Vision</h3>
+                    <p data-i18n="about.vision.text">To be the leading youth organization in Dhule, empowering young minds to become responsible, innovative, and socially conscious leaders of tomorrow.</p>
                 </div>
                 <div class="about-card">
-                    <h3>Our Mission</h3>
-                    <p>To provide comprehensive development programs that enhance academic excellence, foster personal growth, and promote community engagement among youth.</p>
+                    <h3 data-i18n="about.mission.title">Our Mission</h3>
+                    <p data-i18n="about.mission.text">To provide comprehensive development programs that enhance academic excellence, foster personal growth, and promote community engagement among youth.</p>
                 </div>
             </div>
         </section>
 
         <!-- Core Values -->
         <section class="values-section">
-            <h2>Our Core Values</h2>
+            <h2 data-i18n="about.values.title">Our Core Values</h2>
             <div class="values-grid">
                 <div class="value-card">
-                    <h4>🎯 Excellence</h4>
-                    <p>We strive for excellence in everything we do and encourage our members to reach their full potential.</p>
+                    <h4 data-i18n="about.values.excellence">🎯 Excellence</h4>
+                    <p data-i18n="about.values.excellence">We strive for excellence in everything we do and encourage our members to reach their full potential.</p>
                 </div>
                 <div class="value-card">
-                    <h4>🤝 Integrity</h4>
-                    <p>We uphold the highest standards of honesty and transparency in all our activities.</p>
+                    <h4 data-i18n="about.values.integrity">🤝 Integrity</h4>
+                    <p data-i18n="about.values.integrity">We uphold the highest standards of honesty and transparency in all our activities.</p>
                 </div>
                 <div class="value-card">
-                    <h4>🌍 Community</h4>
-                    <p>We believe in the power of community and work towards collective growth and development.</p>
+                    <h4 data-i18n="about.values.community">🌍 Community</h4>
+                    <p data-i18n="about.values.community">We believe in the power of community and work towards collective growth and development.</p>
                 </div>
                 <div class="value-card">
-                    <h4>💡 Innovation</h4>
-                    <p>We encourage creative thinking and innovative approaches to solve real-world problems.</p>
+                    <h4 data-i18n="about.values.innovation">💡 Innovation</h4>
+                    <p data-i18n="about.values.innovation">We encourage creative thinking and innovative approaches to solve real-world problems.</p>
                 </div>
                 <div class="value-card">
-                    <h4>🙌 Inclusion</h4>
-                    <p>We welcome diverse perspectives and create an inclusive environment for all members.</p>
+                    <h4 data-i18n="about.values.inclusion">🙌 Inclusion</h4>
+                    <p data-i18n="about.values.inclusion">We welcome diverse perspectives and create an inclusive environment for all members.</p>
                 </div>
                 <div class="value-card">
-                    <h4>🚀 Growth</h4>
-                    <p>We are committed to continuous learning and personal development for all our members.</p>
+                    <h4 data-i18n="about.values.growth">🚀 Growth</h4>
+                    <p data-i18n="about.values.growth">We are committed to continuous learning and personal development for all our members.</p>
                 </div>
             </div>
         </section>
 
         <!-- History -->
         <section class="history-section">
-            <h2>Our Journey</h2>
-            <p>Founded with a vision to create positive change in the lives of young people, Khandesh Youth Foundation has grown to become a beacon of hope and opportunity for hundreds of youth in the region. Through our tireless efforts and the support of dedicated volunteers, we continue to make a significant impact on the community.</p>
+            <h2 data-i18n="about.history.title">Our Journey</h2>
+            <p data-i18n="about.history.text">Founded with a vision to create positive change in the lives of young people, Khandesh Youth Foundation has grown to become a beacon of hope and opportunity for hundreds of youth in the region. Through our tireless efforts and the support of dedicated volunteers, we continue to make a significant impact on the community.</p>
             
             <div class="timeline">
                 <div class="timeline-item">
-                    <h4>2015 - Foundation</h4>
-                    <p>Khandesh Youth Foundation was established with a small group of passionate youth.</p>
+                    <h4 data-i18n="about.timeline.2015">2015 - Foundation</h4>
+                    <p data-i18n="about.timeline.2015.text">Khandesh Youth Foundation was established with a small group of passionate youth.</p>
                 </div>
                 <div class="timeline-item">
-                    <h4>2017 - Growth</h4>
-                    <p>Expanded our programs and reached 500+ active members.</p>
+                    <h4 data-i18n="about.timeline.2017">2017 - Growth</h4>
+                    <p data-i18n="about.timeline.2017.text">Expanded our programs and reached 500+ active members.</p>
                 </div>
                 <div class="timeline-item">
-                    <h4>2020 - Adaptation</h4>
-                    <p>Pivoted to digital platforms to serve youth during challenging times.</p>
+                    <h4 data-i18n="about.timeline.2020">2020 - Adaptation</h4>
+                    <p data-i18n="about.timeline.2020.text">Pivoted to digital platforms to serve youth during challenging times.</p>
                 </div>
                 <div class="timeline-item">
-                    <h4>2023 - Expansion</h4>
-                    <p>Launched new initiatives including tech workshops and mentorship programs.</p>
+                    <h4 data-i18n="about.timeline.2023">2023 - Expansion</h4>
+                    <p data-i18n="about.timeline.2023.text">Launched new initiatives including tech workshops and mentorship programs.</p>
                 </div>
             </div>
         </section>
@@ -124,19 +128,19 @@
         <section class="stats-section">
             <div class="stat-card">
                 <h3>1000+</h3>
-                <p>Active Members</p>
+                <p data-i18n="about.stats.members">Active Members</p>
             </div>
             <div class="stat-card">
                 <h3>50+</h3>
-                <p>Programs & Initiatives</p>
+                <p data-i18n="about.stats.programs">Programs & Initiatives</p>
             </div>
             <div class="stat-card">
                 <h3>10000+</h3>
-                <p>Lives Impacted</p>
+                <p data-i18n="about.stats.impacted">Lives Impacted</p>
             </div>
             <div class="stat-card">
                 <h3>100+</h3>
-                <p>Volunteers</p>
+                <p data-i18n="about.stats.volunteers">Volunteers</p>
             </div>
         </section>
     </main>
@@ -144,8 +148,8 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Khandesh Youth Foundation. All rights reserved.</p>
-            <p>Empowering Youth | Building Future | Creating Impact</p>
+            <p data-i18n="footer.copy">&copy; 2026 Khandesh Youth Foundation. All rights reserved.</p>
+            <p data-i18n="footer.tagline">Empowering Youth | Building Future | Creating Impact</p>
         </div>
     </footer>
 

@@ -11,17 +11,21 @@
     <nav class="navbar">
         <div class="container">
             <div class="nav-brand">
-                <h2>🌟 Khandesh Youth Foundation</h2>
+                <h2 data-i18n="nav.brand">🌟 Khandesh Youth Foundation</h2>
             </div>
             <ul class="nav-menu" id="navMenu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="activities.html">Activities</a></li>
-                <li><a href="events.html" class="active">Events</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="team.html">Team</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+                <li><a href="about.html" data-i18n="nav.about">About Us</a></li>
+                <li><a href="activities.html" data-i18n="nav.activities">Activities</a></li>
+                <li><a href="events.html" class="active" data-i18n="nav.events">Events</a></li>
+                <li><a href="gallery.html" data-i18n="nav.gallery">Gallery</a></li>
+                <li><a href="team.html" data-i18n="nav.team">Team</a></li>
+                <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
             </ul>
+            <div class="lang-switcher">
+                <button type="button" class="lang-button" data-lang="en">EN</button>
+                <button type="button" class="lang-button" data-lang="mr">MR</button>
+            </div>
             <div class="hamburger" id="hamburger">
                 <span></span>
                 <span></span>
@@ -32,14 +36,14 @@
 
     <!-- Page Header -->
     <section class="page-header">
-        <h1>Upcoming Events</h1>
-        <p>Join Us for Exciting Activities</p>
+        <h1 data-i18n="events.page.header.title">Upcoming Events</h1>
+        <p data-i18n="events.page.header.subtitle">Join Us for Exciting Activities</p>
     </section>
 
     <!-- Main Content -->
     <main class="container">
         <section class="events-section">
-            <h2>Events Calendar</h2>
+            <h2 data-i18n="events.calendar.title">Events Calendar</h2>
             
             <div class="events-grid">
                 <!-- Event 1 -->
@@ -49,7 +53,7 @@
                         <span class="month">APR</span>
                     </div>
                     <div class="event-details">
-                        <h3>Annual Sports Day</h3>
+                        <h3 data-i18n="events.annual.title">Annual Sports Day</h3>
                         <p><strong>Date & Time:</strong> April 15, 2026 | 9:00 AM - 5:00 PM</p>
                         <p><strong>Location:</strong> Dhule Sports Complex</p>
                         <p><strong>Description:</strong> Join us for an exciting day of sports competitions including cricket, football, volleyball, and athletics. This is a great opportunity to showcase your talent, build teamwork, and connect with fellow youth.</p>
@@ -65,7 +69,7 @@
                         <span class="month">APR</span>
                     </div>
                     <div class="event-details">
-                        <h3>Web Development Workshop</h3>
+                        <h3 data-i18n="events.tech.title">Web Development Workshop</h3>
                         <p><strong>Date & Time:</strong> April 20, 2026 | 3:00 PM - 6:00 PM</p>
                         <p><strong>Location:</strong> Khandesh Youth Foundation - Tech Hub</p>
                         <p><strong>Description:</strong> Learn the basics of web development in this hands-on workshop. Our expert instructors will guide you through HTML, CSS, and JavaScript. Perfect for beginners!</p>
@@ -81,10 +85,10 @@
                         <span class="month">APR</span>
                     </div>
                     <div class="event-details">
-                        <h3>Leadership Summit</h3>
-                        <p><strong>Date & Time:</strong> April 25, 2026 | 10:00 AM - 4:00 PM</p>
+                        <h3 data-i18n="events.leadership.title">Leadership Summit</h3>
+                        <p><strong>Date & Time:</strong> <span data-i18n="events.leadership.date">April 25, 2026</span> | 10:00 AM - 4:00 PM</p>
                         <p><strong>Location:</strong> Dhule Community Center</p>
-                        <p><strong>Description:</strong> A comprehensive summit on developing leadership skills. Hear from inspiring leaders, participate in interactive sessions, and network with peers who share your vision.</p>
+                        <p><strong>Description:</strong> <span data-i18n="events.leadership.text">A comprehensive summit on developing leadership skills. Hear from inspiring leaders, participate in interactive sessions, and network with peers who share your vision.</span></p>
                         <p><strong>Topics Covered:</strong> Public speaking, team management, personal growth, and decision making.</p>
                         <a href="contact.html" class="btn btn-small">Register Now</a>
                     </div>
@@ -97,7 +101,7 @@
                         <span class="month">MAY</span>
                     </div>
                     <div class="event-details">
-                        <h3>Cultural Festival</h3>
+                        <h3 data-i18n="events.cultural.title">Cultural Festival</h3>
                         <p><strong>Date & Time:</strong> May 5, 2026 | 6:00 PM - 10:00 PM</p>
                         <p><strong>Location:</strong> Khandesh Youth Foundation Main Ground</p>
                         <p><strong>Description:</strong> Celebrate diversity and creativity at our annual cultural festival! Enjoy performances in dance, music, theater, and art. Showcase your talents or just come and enjoy the festivities.</p>
@@ -142,8 +146,8 @@
 
         <!-- Past Events Section -->
         <section class="past-events-section">
-            <h2>Past Events</h2>
-            <p>Check out what we've accomplished and the moments we've shared together!</p>
+            <h2 data-i18n="events.past.title">Past Events</h2>
+            <p data-i18n="events.past.text">Check out what we've accomplished and the moments we've shared together!</p>
             <div class="past-events">
                 <div class="past-event-item">
                     <h4>📸 Last Annual Sports Day</h4>
@@ -168,8 +172,8 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Khandesh Youth Foundation. All rights reserved.</p>
-            <p>Empowering Youth | Building Future | Creating Impact</p>
+            <p data-i18n="footer.copy">&copy; 2026 Khandesh Youth Foundation. All rights reserved.</p>
+            <p data-i18n="footer.tagline">Empowering Youth | Building Future | Creating Impact</p>
         </div>
     </footer>
 

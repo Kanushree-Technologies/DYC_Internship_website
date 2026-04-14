@@ -6,22 +6,26 @@
     <title>Team - Khandesh Youth Foundation</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body data-page="team">
     <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="container">
             <div class="nav-brand">
-                <h2>🌟 Khandesh Youth Foundation</h2>
+                <h2 data-i18n="nav.brand">🌟 Khandesh Youth Foundation</h2>
             </div>
             <ul class="nav-menu" id="navMenu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="activities.html">Activities</a></li>
-                <li><a href="events.html">Events</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="team.html" class="active">Team</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+                <li><a href="about.html" data-i18n="nav.about">About Us</a></li>
+                <li><a href="activities.html" data-i18n="nav.activities">Activities</a></li>
+                <li><a href="events.html" data-i18n="nav.events">Events</a></li>
+                <li><a href="gallery.html" data-i18n="nav.gallery">Gallery</a></li>
+                <li><a href="team.html" class="active" data-i18n="nav.team">Team</a></li>
+                <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
             </ul>
+            <div class="lang-switcher">
+                <button type="button" class="lang-button" data-lang="en">EN</button>
+                <button type="button" class="lang-button" data-lang="mr">MR</button>
+            </div>
             <div class="hamburger" id="hamburger">
                 <span></span>
                 <span></span>
@@ -32,15 +36,15 @@
 
     <!-- Page Header -->
     <section class="page-header">
-        <h1>Our Team</h1>
-        <p>The Passionate People Behind Our Mission</p>
+        <h1 data-i18n="team.page.header.title">Our Team</h1>
+        <p data-i18n="team.page.header.subtitle">The Passionate People Behind Our Mission</p>
     </section>
 
     <!-- Main Content -->
     <main class="container">
         <section class="team-section">
-            <h2>Leadership Team</h2>
-            <p>Meet the dedicated individuals who lead Khandesh Youth Foundation and drive our mission forward.</p>
+            <h2 data-i18n="team.leadership.title">Leadership Team</h2>
+            <p data-i18n="team.leadership.description">Meet the dedicated individuals who lead Khandesh Youth Foundation and drive our mission forward.</p>
             
             <div class="team-grid">
                 <!-- Team Member 1 -->
@@ -101,8 +105,8 @@
 
         <!-- Core Team Committee -->
         <section class="committee-section">
-            <h2>Core Committee Members</h2>
-            <p>Our dedicated committee members work tirelessly to support various initiatives.</p>
+            <h2 data-i18n="team.section.committee.title">Core Committee Members</h2>
+            <p data-i18n="team.section.committee.text">Our dedicated committee members work tirelessly to support various initiatives.</p>
             
             <div class="committee-grid">
                 <div class="committee-member">
@@ -145,33 +149,33 @@
 
         <!-- Volunteer Section -->
         <section class="volunteer-section">
-            <h2>Our Volunteers</h2>
-            <p>We are supported by over 100 passionate volunteers from diverse backgrounds who dedicate their time and skills to making a difference.</p>
+            <h2 data-i18n="team.volunteers.title">Our Volunteers</h2>
+            <p data-i18n="team.section.volunteers.description">We are supported by over 100 passionate volunteers from diverse backgrounds who dedicate their time and skills to making a difference.</p>
             
             <div class="volunteer-info">
                 <div class="volunteer-stat">
                     <h3>100+</h3>
-                    <p>Active Volunteers</p>
+                    <p data-i18n="team.volunteers.stats.active">Active Volunteers</p>
                 </div>
                 <div class="volunteer-stat">
                     <h3>10,000+</h3>
-                    <p>Volunteer Hours</p>
+                    <p data-i18n="team.volunteers.stats.hours">Volunteer Hours</p>
                 </div>
                 <div class="volunteer-stat">
                     <h3>50+</h3>
-                    <p>Community Partnerships</p>
+                    <p data-i18n="team.volunteers.stats.partnerships">Community Partnerships</p>
                 </div>
             </div>
 
-            <h3 style="margin-top: 2rem;">Become a Volunteer</h3>
-            <p>Are you passionate about youth development? Join our volunteer team and make a real impact in the community!</p>
-            <a href="contact.html" class="btn btn-primary">Volunteer With Us</a>
+            <h3 style="margin-top: 2rem;" data-i18n="team.section.volunteer.title">Become a Volunteer</h3>
+            <p data-i18n="team.section.volunteer.text">Are you passionate about youth development? Join our volunteer team and make a real impact in the community!</p>
+            <a href="contact.html" class="btn btn-primary" data-i18n="team.volunteer.cta">Volunteer With Us</a>
         </section>
 
         <!-- Board of Advisors -->
         <section class="advisors-section">
-            <h2>Board of Advisors</h2>
-            <p>Our board consists of respected members from academia, industry, and community who guide our strategic initiatives.</p>
+            <h2 data-i18n="team.advisors.title">Board of Advisors</h2>
+            <p data-i18n="team.section.board.description">Our board consists of respected members from academia, industry, and community who guide our strategic initiatives.</p>
             
             <div class="advisors-grid">
                 <div class="advisor-card">
@@ -197,8 +201,8 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Khandesh Youth Foundation. All rights reserved.</p>
-            <p>Empowering Youth | Building Future | Creating Impact</p>
+            <p data-i18n="footer.copy">&copy; 2026 Khandesh Youth Foundation. All rights reserved.</p>
+            <p data-i18n="footer.tagline">Empowering Youth | Building Future | Creating Impact</p>
         </div>
     </footer>
 

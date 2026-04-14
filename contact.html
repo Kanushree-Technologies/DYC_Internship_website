@@ -6,22 +6,26 @@
     <title>Contact Us - Khandesh Youth Foundation</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body data-page="contact">
     <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="container">
             <div class="nav-brand">
-                <h2>🌟 Khandesh Youth Foundation</h2>
+                <h2 data-i18n="nav.brand">🌟 Khandesh Youth Foundation</h2>
             </div>
             <ul class="nav-menu" id="navMenu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="activities.html">Activities</a></li>
-                <li><a href="events.html">Events</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="team.html">Team</a></li>
-                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+                <li><a href="about.html" data-i18n="nav.about">About Us</a></li>
+                <li><a href="activities.html" data-i18n="nav.activities">Activities</a></li>
+                <li><a href="events.html" data-i18n="nav.events">Events</a></li>
+                <li><a href="gallery.html" data-i18n="nav.gallery">Gallery</a></li>
+                <li><a href="team.html" data-i18n="nav.team">Team</a></li>
+                <li><a href="contact.html" class="active" data-i18n="nav.contact">Contact</a></li>
             </ul>
+            <div class="lang-switcher">
+                <button type="button" class="lang-button" data-lang="en">EN</button>
+                <button type="button" class="lang-button" data-lang="mr">MR</button>
+            </div>
             <div class="hamburger" id="hamburger">
                 <span></span>
                 <span></span>
@@ -32,8 +36,8 @@
 
     <!-- Page Header -->
     <section class="page-header">
-        <h1>Contact Us</h1>
-        <p>Get In Touch With Khandesh Youth Foundation</p>
+        <h1 data-i18n="contact.page.header.title">Contact Us</h1>
+        <p data-i18n="contact.page.header.subtitle">Get In Touch With Khandesh Youth Foundation</p>
     </section>
 
     <!-- Main Content -->
@@ -42,35 +46,35 @@
             <div class="contact-info-grid">
                 <!-- Contact Info -->
                 <div class="contact-info-block">
-                    <h2>Contact Information</h2>
+                    <h2 data-i18n="contact.info.title">Contact Information</h2>
                     
                     <div class="info-item">
-                        <h3>📍 Address</h3>
+                        <h3 data-i18n="contact.info.address.title">📍 Address</h3>
                         <p>Khandesh Youth Foundation Headquarters<br>
                         Near City Center, Dhule<br>
                         Maharashtra, India - 424001</p>
                     </div>
 
                     <div class="info-item">
-                        <h3>📞 Phone</h3>
+                        <h3 data-i18n="contact.info.phone.title">📞 Phone</h3>
                         <p><a href="tel:+919876543210">+91 9876 543 210</a><br>
                         <a href="tel:+912571234567">+91 257 123 4567</a> (Landline)</p>
                     </div>
 
                     <div class="info-item">
-                        <h3>📧 Email</h3>
+                        <h3 data-i18n="contact.info.email.title">📧 Email</h3>
                         <p><a href="mailto:khandesh.youth.foundation@gmail.com">khandesh.youth.foundation@gmail.com</a></p>
                     </div>
 
                     <div class="info-item">
-                        <h3>🕒 Office Hours</h3>
+                        <h3 data-i18n="contact.info.hours.title">🕒 Office Hours</h3>
                         <p><strong>Monday - Friday:</strong> 10:00 AM - 6:00 PM<br>
                         <strong>Saturday:</strong> 10:00 AM - 4:00 PM<br>
                         <strong>Sunday:</strong> Closed</p>
                     </div>
 
                     <div class="info-item">
-                        <h3>🌐 Follow Us</h3>
+                        <h3 data-i18n="contact.info.follow.title">🌐 Follow Us</h3>
                         <p>
                             <a href="#" class="social-link">Facebook</a> | 
                             <a href="#" class="social-link">Instagram</a> | 
@@ -82,51 +86,51 @@
 
                 <!-- Contact Form -->
                 <div class="contact-form-block">
-                    <h2>Send Us a Message</h2>
+                    <h2 data-i18n="contact.form.title">Send Us a Message</h2>
                     <form id="contactForm" class="contact-form">
                         <div class="form-group">
-                            <label for="name">Full Name *</label>
+                            <label for="name" data-i18n="contact.form.label.name">Full Name *</label>
                             <input type="text" id="name" name="name" required>
                         </div>
 
                         <div class="form-group">
-                            <label for="email">Email Address *</label>
+                            <label for="email" data-i18n="contact.form.label.email">Email Address *</label>
                             <input type="email" id="email" name="email" required>
                         </div>
 
                         <div class="form-group">
-                            <label for="phone">Phone Number</label>
+                            <label for="phone" data-i18n="contact.form.label.phone">Phone Number</label>
                             <input type="tel" id="phone" name="phone">
                         </div>
 
                         <div class="form-group">
-                            <label for="subject">Subject *</label>
+                            <label for="subject" data-i18n="contact.form.label.subject">Subject *</label>
                             <select id="subject" name="subject" required>
-                                <option value="">Select a subject</option>
-                                <option value="membership">Membership Inquiry</option>
-                                <option value="activities">Activities Information</option>
-                                <option value="events">Events Registration</option>
-                                <option value="volunteer">Volunteer Opportunity</option>
-                                <option value="feedback">Feedback</option>
-                                <option value="other">Other</option>
+                                <option value="" data-i18n="contact.form.option.select">Select a subject</option>
+                                <option value="membership" data-i18n="contact.form.option.membership">Membership Inquiry</option>
+                                <option value="activities" data-i18n="contact.form.option.activities">Activities Information</option>
+                                <option value="events" data-i18n="contact.form.option.events">Events Registration</option>
+                                <option value="volunteer" data-i18n="contact.form.option.volunteer">Volunteer Opportunity</option>
+                                <option value="feedback" data-i18n="contact.form.option.feedback">Feedback</option>
+                                <option value="other" data-i18n="contact.form.option.other">Other</option>
                             </select>
                         </div>
 
                         <div class="form-group">
-                            <label for="message">Message *</label>
+                            <label for="message" data-i18n="contact.form.label.message">Message *</label>
                             <textarea id="message" name="message" rows="5" required></textarea>
                         </div>
 
-                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <button type="submit" class="btn btn-primary" data-i18n="contact.form.button">Send Message</button>
                     </form>
-                    <p id="formMessage" style="margin-top: 1rem; color: green; display: none;">Thank you! Your message has been sent successfully.</p>
+                    <p id="formMessage" style="margin-top: 1rem; color: green; display: none;" data-i18n="contact.success">Thank you! Your message has been sent successfully.</p>
                 </div>
             </div>
         </section>
 
         <!-- Department Contacts -->
         <section class="department-contacts">
-            <h2>Department Contacts</h2>
+            <h2 data-i18n="contact.department.title">Department Contacts</h2>
             <div class="departments-grid">
                 <div class="department-card">
                     <h3>📚 Education & Mentorship</h3>
@@ -174,31 +178,31 @@
 
         <!-- FAQ Section -->
         <section class="faq-section">
-            <h2>Frequently Asked Questions</h2>
+            <h2 data-i18n="contact.faq.title">Frequently Asked Questions</h2>
             <div class="faq-grid">
                 <div class="faq-item">
-                    <h4>How do I become a member?</h4>
-                    <p>Send us a message through the contact form or visit our office with basic identification. Membership is open to all youth aged 13-25 years.</p>
+                    <h4 data-i18n="contact.faq.q1">How do I become a member?</h4>
+                    <p data-i18n="contact.faq.a1">Send us a message through the contact form or visit our office with basic identification. Membership is open to all youth aged 13-25 years.</p>
                 </div>
                 <div class="faq-item">
-                    <h4>Is there a membership fee?</h4>
-                    <p>We offer affordable membership options. Contact our office for current membership plans and rates.</p>
+                    <h4 data-i18n="contact.faq.q2">Is there a membership fee?</h4>
+                    <p data-i18n="contact.faq.a2">We offer affordable membership options. Contact our office for current membership plans and rates.</p>
                 </div>
                 <div class="faq-item">
-                    <h4>How often are activities held?</h4>
-                    <p>Activities are held regularly throughout the week. Different programs have different schedules. Check activities page for details.</p>
+                    <h4 data-i18n="contact.faq.q3">How often are activities held?</h4>
+                    <p data-i18n="contact.faq.a3">Activities are held regularly throughout the week. Different programs have different schedules. Check activities page for details.</p>
                 </div>
                 <div class="faq-item">
-                    <h4>Can I volunteer?</h4>
-                    <p>Yes! We welcome volunteers of all backgrounds. Fill the volunteer form or contact us for more information.</p>
+                    <h4 data-i18n="contact.faq.q4">Can I volunteer?</h4>
+                    <p data-i18n="contact.faq.a4">Yes! We welcome volunteers of all backgrounds. Fill the volunteer form or contact us for more information.</p>
                 </div>
                 <div class="faq-item">
-                    <h4>How can I register for events?</h4>
-                    <p>You can register for events through our contact form or by visiting our office. Registration details are provided in event announcements.</p>
+                    <h4 data-i18n="contact.faq.q5">How can I register for events?</h4>
+                    <p data-i18n="contact.faq.a5">You can register for events through our contact form or by visiting our office. Registration details are provided in event announcements.</p>
                 </div>
                 <div class="faq-item">
-                    <h4>Are your programs free?</h4>
-                    <p>Most programs are free for members. Some special workshops and events may have minimal fees to cover materials and speakers.</p>
+                    <h4 data-i18n="contact.faq.q6">Are your programs free?</h4>
+                    <p data-i18n="contact.faq.a6">Most programs are free for members. Some special workshops and events may have minimal fees to cover materials and speakers.</p>
                 </div>
             </div>
         </section>
@@ -207,8 +211,8 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Khandesh Youth Foundation. All rights reserved.</p>
-            <p>Empowering Youth | Building Future | Creating Impact</p>
+            <p data-i18n="footer.copy">&copy; 2026 Khandesh Youth Foundation. All rights reserved.</p>
+            <p data-i18n="footer.tagline">Empowering Youth | Building Future | Creating Impact</p>
         </div>
     </footer>
 

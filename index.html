@@ -11,17 +11,21 @@
     <nav class="navbar">
         <div class="container">
             <div class="nav-brand">
-                <h2>🌟 Khandesh Youth Foundation</h2>
+                <h2 data-i18n="nav.brand">🌟 Khandesh Youth Foundation</h2>
             </div>
             <ul class="nav-menu" id="navMenu">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="activities.html">Activities</a></li>
-                <li><a href="events.html">Events</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="team.html">Team</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html" class="active" data-i18n="nav.home">Home</a></li>
+                <li><a href="about.html" data-i18n="nav.about">About Us</a></li>
+                <li><a href="activities.html" data-i18n="nav.activities">Activities</a></li>
+                <li><a href="events.html" data-i18n="nav.events">Events</a></li>
+                <li><a href="gallery.html" data-i18n="nav.gallery">Gallery</a></li>
+                <li><a href="team.html" data-i18n="nav.team">Team</a></li>
+                <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
             </ul>
+            <div class="lang-switcher">
+                <button type="button" class="lang-button" data-lang="en">EN</button>
+                <button type="button" class="lang-button" data-lang="mr">MR</button>
+            </div>
             <div class="hamburger" id="hamburger">
                 <span></span>
                 <span></span>
@@ -33,9 +37,9 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
-            <h1>Welcome to Khandesh Youth Foundation</h1>
-            <p>Empowering Youth, Building Future, Creating Impact</p>
-            <a href="about.html" class="btn btn-primary">Learn More</a>
+            <h1 data-i18n="hero.title">Welcome to Khandesh Youth Foundation</h1>
+            <p data-i18n="hero.subtitle">Empowering Youth, Building Future, Creating Impact</p>
+            <a href="about.html" class="btn btn-primary" data-i18n="hero.cta">Learn More</a>
         </div>
     </section>
 
@@ -43,65 +47,65 @@
     <main class="container">
         <!-- Mission Section -->
         <section class="mission-section">
-            <h2>Our Mission</h2>
+            <h2 data-i18n="mission.title">Our Mission</h2>
             <div class="mission-grid">
                 <div class="mission-card">
-                    <h3>🎓 Education</h3>
-                    <p>Providing educational support and mentorship to empower young minds.</p>
+                    <h3 data-i18n="mission.education.title">🎓 Education</h3>
+                    <p data-i18n="mission.education.text">Providing educational support and mentorship to empower young minds.</p>
                 </div>
                 <div class="mission-card">
-                    <h3>🏃 Activities</h3>
-                    <p>Organizing engaging activities and programs for personal development.</p>
+                    <h3 data-i18n="mission.activities.title">🏃 Activities</h3>
+                    <p data-i18n="mission.activities.text">Organizing engaging activities and programs for personal development.</p>
                 </div>
                 <div class="mission-card">
-                    <h3>🤝 Community</h3>
-                    <p>Building a strong community through collaboration and mutual support.</p>
+                    <h3 data-i18n="mission.community.title">🤝 Community</h3>
+                    <p data-i18n="mission.community.text">Building a strong community through collaboration and mutual support.</p>
                 </div>
                 <div class="mission-card">
-                    <h3>🚀 Growth</h3>
-                    <p>Fostering leadership skills and career development opportunities.</p>
+                    <h3 data-i18n="mission.growth.title">🚀 Growth</h3>
+                    <p data-i18n="mission.growth.text">Fostering leadership skills and career development opportunities.</p>
                 </div>
             </div>
         </section>
 
         <!-- Featured Activities -->
         <section class="featured-section">
-            <h2>Featured Activities</h2>
+            <h2 data-i18n="featured.title">Featured Activities</h2>
             <div class="activities-preview">
                 <div class="activity-card">
-                    <h3>Sports & Fitness</h3>
-                    <p>Participate in various sports activities including cricket, football, volleyball, and fitness training sessions.</p>
+                    <h3 data-i18n="featured.sports.title">Sports & Fitness</h3>
+                    <p data-i18n="featured.sports.text">Participate in various sports activities including cricket, football, volleyball, and fitness training sessions.</p>
                 </div>
                 <div class="activity-card">
-                    <h3>Workshops</h3>
-                    <p>Attend skill-development workshops on technology, entrepreneurship, and career guidance.</p>
+                    <h3 data-i18n="featured.workshops.title">Workshops</h3>
+                    <p data-i18n="featured.workshops.text">Attend skill-development workshops on technology, entrepreneurship, and career guidance.</p>
                 </div>
                 <div class="activity-card">
-                    <h3>Cultural Events</h3>
-                    <p>Showcase your talents through music, dance, art, and cultural performances.</p>
+                    <h3 data-i18n="featured.culture.title">Cultural Events</h3>
+                    <p data-i18n="featured.culture.text">Showcase your talents through music, dance, art, and cultural performances.</p>
                 </div>
             </div>
-            <a href="activities.html" class="btn btn-secondary">View All Activities</a>
+            <a href="activities.html" class="btn btn-secondary" data-i18n="featured.button">View All Activities</a>
         </section>
 
         <!-- Upcoming Events -->
         <section class="upcoming-events">
-            <h2>Upcoming Events</h2>
+            <h2 data-i18n="events.title">Upcoming Events</h2>
             <div class="events-preview">
                 <div class="event-card">
-                    <h4>Annual Sports Day</h4>
-                    <p>📅 April 15, 2026</p>
-                    <p>Join us for a day of exciting sports competitions and team building activities.</p>
+                    <h4 data-i18n="events.annual.title">Annual Sports Day</h4>
+                    <p data-i18n="events.annual.date">📅 April 15, 2026</p>
+                    <p data-i18n="events.annual.text">Join us for a day of exciting sports competitions and team building activities.</p>
                 </div>
                 <div class="event-card">
-                    <h4>Tech Workshop</h4>
-                    <p>📅 April 20, 2026</p>
-                    <p>Learn web development basics from industry professionals.</p>
+                    <h4 data-i18n="events.tech.title">Tech Workshop</h4>
+                    <p data-i18n="events.tech.date">📅 April 20, 2026</p>
+                    <p data-i18n="events.tech.text">Learn web development basics from industry professionals.</p>
                 </div>
                 <div class="event-card">
-                    <h4>Cultural Festival</h4>
-                    <p>📅 May 5, 2026</p>
-                    <p>Celebrate diversity through art, music, and cultural performances.</p>
+                    <h4 data-i18n="events.cultural.title">Cultural Festival</h4>
+                    <p data-i18n="events.cultural.date">📅 May 5, 2026</p>
+                    <p data-i18n="events.cultural.text">Celebrate diversity through art, music, and cultural performances.</p>
                 </div>
             </div>
             <a href="events.html" class="btn btn-secondary">View All Events</a>
@@ -109,17 +113,17 @@
 
         <!-- Call to Action -->
         <section class="cta-section">
-            <h2>Ready to Join Us?</h2>
-            <p>Be part of a dynamic community dedicated to youth development and growth.</p>
-            <a href="contact.html" class="btn btn-primary">Get In Touch</a>
+            <h2 data-i18n="cta.title">Ready to Join Us?</h2>
+            <p data-i18n="cta.text">Be part of a dynamic community dedicated to youth development and growth.</p>
+            <a href="contact.html" class="btn btn-primary" data-i18n="cta.button">Get In Touch</a>
         </section>
     </main>
 
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Khandesh Youth Foundation. All rights reserved.</p>
-            <p>Empowering Youth | Building Future | Creating Impact</p>
+            <p data-i18n="footer.copy">&copy; 2026 Khandesh Youth Foundation. All rights reserved.</p>
+            <p data-i18n="footer.tagline">Empowering Youth | Building Future | Creating Impact</p>
         </div>
     </footer>
 

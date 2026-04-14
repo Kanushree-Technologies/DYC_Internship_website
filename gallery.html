@@ -11,17 +11,21 @@
     <nav class="navbar">
         <div class="container">
             <div class="nav-brand">
-                <h2>🌟 Khandesh Youth Foundation</h2>
+                <h2 data-i18n="nav.brand">🌟 Khandesh Youth Foundation</h2>
             </div>
             <ul class="nav-menu" id="navMenu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="activities.html">Activities</a></li>
-                <li><a href="events.html">Events</a></li>
-                <li><a href="gallery.html" class="active">Gallery</a></li>
-                <li><a href="team.html">Team</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+                <li><a href="about.html" data-i18n="nav.about">About Us</a></li>
+                <li><a href="activities.html" data-i18n="nav.activities">Activities</a></li>
+                <li><a href="events.html" data-i18n="nav.events">Events</a></li>
+                <li><a href="gallery.html" class="active" data-i18n="nav.gallery">Gallery</a></li>
+                <li><a href="team.html" data-i18n="nav.team">Team</a></li>
+                <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
             </ul>
+            <div class="lang-switcher">
+                <button type="button" class="lang-button" data-lang="en">EN</button>
+                <button type="button" class="lang-button" data-lang="mr">MR</button>
+            </div>
             <div class="hamburger" id="hamburger">
                 <span></span>
                 <span></span>
@@ -32,14 +36,14 @@
 
     <!-- Page Header -->
     <section class="page-header">
-        <h1>Gallery</h1>
-        <p>Moments from Our Activities & Events</p>
+        <h1 data-i18n="gallery.page.header.title">Gallery</h1>
+        <p data-i18n="gallery.page.header.subtitle">Moments from Our Activities & Events</p>
     </section>
 
     <!-- Main Content -->
     <main class="container">
         <section class="gallery-section">
-            <h2>Photo Gallery</h2>
+            <h2 data-i18n="gallery.photo.title">Photo Gallery</h2>
             
             <!-- Gallery Grid -->
             <div class="gallery-grid">
@@ -233,17 +237,17 @@
 
         <!-- Photo Contribution -->
         <section class="photo-contribution">
-            <h2>Share Your Moments</h2>
-            <p>Have photos from our events? We'd love to see them! Send us your photos and memories from your time with Khandesh Youth Foundation.</p>
-            <a href="contact.html" class="btn btn-primary">Send Photos & Memories</a>
+            <h2 data-i18n="gallery.contribution.title">Share Your Moments</h2>
+            <p data-i18n="gallery.contribution.text">Have photos from our events? We'd love to see them! Send us your photos and memories from your time with Khandesh Youth Foundation.</p>
+            <a href="contact.html" class="btn btn-primary" data-i18n="gallery.contribution.button">Send Photos & Memories</a>
         </section>
     </main>
 
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Khandesh Youth Foundation. All rights reserved.</p>
-            <p>Empowering Youth | Building Future | Creating Impact</p>
+            <p data-i18n="footer.copy">&copy; 2026 Khandesh Youth Foundation. All rights reserved.</p>
+            <p data-i18n="footer.tagline">Empowering Youth | Building Future | Creating Impact</p>
         </div>
     </footer>
 

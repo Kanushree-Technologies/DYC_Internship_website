@@ -19,6 +19,9 @@ dhule-youth-club/
 │   ├── js/
 │   │   └── script.js       # JavaScript functionality
 │   └── images/             # Image folder (for future use)
+├── lang/
+│   ├── en.json             # English translations
+│   └── mr.json             # Marathi translations
 └── README.md               # This file
 ```
 
@@ -29,6 +32,8 @@ dhule-youth-club/
 ✅ **Navigation Menu** - Smooth navigation with mobile hamburger menu
 ✅ **Multiple Pages** - Home, About, Activities, Events, Gallery, Team, Contact
 ✅ **Contact Form** - Working contact form with validation
+✅ **Language Switcher** - English and Marathi support with a header toggle
+✅ **JSON-based i18n** - Language strings are stored in `lang/en.json` and `lang/mr.json`
 ✅ **Smooth Animations** - CSS animations and transitions throughout
 ✅ **Mobile-Friendly** - Optimized for all screen sizes
 ✅ **SEO Ready** - Proper HTML structure and meta tags
@@ -93,12 +98,14 @@ dhule-youth-club/
 ## Getting Started
 
 ### 1. **Open the Website**
-Simply open `index.html` in your web browser. No server or installation required!
+Open the site using a local server so the multi-language feature can load properly.
 
-### Ways to open:
-- Double-click `index.html` in File Explorer
-- Drag and drop `index.html` into your browser
-- Right-click → Open with → Choose your browser
+### Recommended ways to open:
+- Use VS Code Live Server: Right-click `index.html` → Open with Live Server
+- Or run a local server from the project folder:
+  - `python -m http.server 8000`
+  - Then open `http://localhost:8000`
+- If Live Server is not available, open `index.html` in the browser and confirm the site loads correctly.
 
 ### 2. **Customize the Content**
 Edit the HTML files to replace sample content with your actual information:
@@ -170,6 +177,12 @@ In `contact.html`, update the social media links:
 - To enable email sending, you'll need:
   - A backend service (Node.js, PHP, etc.)
   - Or integrate with services like Formspree or EmailJS
+
+### Language Support
+- English and Marathi translations are loaded from JSON files in `lang/en.json` and `lang/mr.json`
+- Text elements use `data-i18n` attributes for translation
+- Selected language is saved in localStorage and persists across pages
+- Use a local server (Live Server or `python -m http.server`) to ensure fetch-based loading works correctly
 
 ### Mobile Menu
 - Automatic hamburger menu on screens < 768px

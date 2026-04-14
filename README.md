@@ -15,7 +15,7 @@ dhule-youth-club/
 ├── contact.html            # Contact Us page
 ├── assets/
 │   ├── css/
-│   │   └── style.css       # Main stylesheet
+│   │   └── web_style.css       # Main stylesheet
 │   ├── js/
 │   │   └── script.js       # JavaScript functionality
 │   └── images/             # Image folder (for future use)
@@ -121,7 +121,7 @@ Edit the HTML files to replace sample content with your actual information:
 
 ### 3. **Visual Customization**
 
-**Colors** - Edit color variables in `assets/css/style.css`:
+**Colors** - Edit color variables in `assets/css/web_style.css`:
 ```css
 :root {
     --primary-color: #007bff;        /* Blue */
@@ -131,7 +131,7 @@ Edit the HTML files to replace sample content with your actual information:
 }
 ```
 
-**Font** - Change the default font in `style.css`:
+**Font** - Change the default font in `web_style.css`:
 ```css
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -156,7 +156,7 @@ Find and replace "Khandesh Youth Foundation" throughout all files with your club
 Edit the links in the `<nav>` section (present in all HTML files).
 
 ### 3. **Modify Colors and Theme**
-- Edit `:root` variables in `style.css`
+- Edit `:root` variables in `web_style.css`
 - Change gradient colors in buttons and sections
 - Adjust text colors as needed
 
@@ -243,7 +243,7 @@ In `contact.html`, update the social media links:
 ## Troubleshooting
 
 **Issue: Styles not loading**
-- Check that `css/style.css` path is correct
+- Check that `css/web_style.css` path is correct
 - Clear browser cache (Ctrl+Shift+Del)
 
 **Issue: JavaScript not working**

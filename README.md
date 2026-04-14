@@ -1,6 +1,6 @@
-# Dhule Youth Club Website
+# Khandesh Youth Foundation Website
 
-A modern, responsive website for Dhule Youth Club built with HTML, CSS, and JavaScript.
+A modern, responsive website for Khandesh Youth Foundation built with HTML, CSS, and JavaScript.
 
 ## Project Structure
 
@@ -143,7 +143,7 @@ To replace gallery placeholders, edit the `.gallery-placeholder` elements in `ga
 ## Customization Tips
 
 ### 1. **Change Club Name**
-Find and replace "Dhule Youth Club" throughout all files with your club name.
+Find and replace "Khandesh Youth Foundation" throughout all files with your club name.
 
 ### 2. **Update Navigation Menu**
 Edit the links in the `<nav>` section (present in all HTML files).
@@ -261,7 +261,7 @@ For questions or issues:
 
 ## License
 
-This website template is provided as-is for Dhule Youth Club. Feel free to modify and use as needed.
+This website template is provided as-is for Khandesh Youth Foundation. Feel free to modify and use as needed.
 
 ---
 

@@ -151,5 +151,5 @@ document.body.style.opacity = '0';
 document.body.style.transition = 'opacity 0.3s ease-in';
 
 // Logger for debugging
-console.log('Dhule Youth Club Website - JavaScript initialized');
+console.log('Khandesh Youth Foundation Website - JavaScript initialized');
 console.log('Current page:', window.location.pathname);
